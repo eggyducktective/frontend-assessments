@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.header {
+    height: 95vh;
+    background-image: url('http://via.placeholder.com/1440x650');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    color: #fff;
+    position: relative;
+}
+
+.header__text-box {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; 
+}
+
+.heading-primary--main {
+    display: block;
+    font-size: 4rem;
+    font-weight: 600;
+ }
+  
+.heading-primary--sub {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+.content-image {
+    padding: 1em;
+    border-radius: 1.5em;
+}
+
+.button, .button:hover {
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.button--white {
+    border: 2px solid black;
+    border-radius: 10rem;
+    width: 40%;
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
+}
